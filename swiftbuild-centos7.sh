@@ -8,11 +8,11 @@ ln -s /usr/bin/cmake3 /usr/bin/cmake
 cd /usr/local/src/
 mkdir swift
 cd swift
-git clone --branch swift-3.0-preview-1-branch https://github.com/apple/swift.git swift
+git clone --branch swift-3.1-branch https://github.com/apple/swift.git swift
 git clone --branch release https://github.com/ninja-build/ninja.git
-git clone https://github.com/apple/swift-cmark.git cmark
-git clone https://github.com/apple/swift-llvm.git llvm
-git clone https://github.com/apple/swift-clang.git clang
+git clone --branch swift-3.1-branch https://github.com/apple/swift-cmark.git cmark
+git clone --branch swift-3.1-branch https://github.com/apple/swift-llvm.git llvm
+git clone --branch swift-3.1-branch https://github.com/apple/swift-clang.git clang
 pwd
 ls -la
 cd swift/
